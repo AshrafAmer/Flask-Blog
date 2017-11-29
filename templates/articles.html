@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <h2> Articles </h2>
+  <!-- Jinja Templates -->
+  <ul class="list-group">
+    {% for article in articles %}
+      <!-- Data Output comes from articles -->
+      <li class="list-group-item">
+        <a href="article/{{article.id}}">{{article.title}}</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock %}
