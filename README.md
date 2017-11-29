@@ -11,7 +11,7 @@ To run this Site on your Localhost You must have:
 * Build all needed tables (Queries attached).
 
 ## Usage
- RUN ''' python app.py '''
+ RUN ` python app.py `
 
 
 ## Author
